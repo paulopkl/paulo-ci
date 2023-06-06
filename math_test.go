@@ -9,3 +9,11 @@ func TestSum(t *testing.T) {
 		t.Errorf("Invalid sum result: %d, expected value: %d", total, 30)
 	}
 }
+
+func TestMinus(t *testing.T) {
+	total := Minus(15, 7)
+
+	if total != 8 {
+		t.Errorf("Invalid sum result: %d, expected value: %d", total, 8)
+	}
+}
