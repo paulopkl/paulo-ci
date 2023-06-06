@@ -3,7 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(sum(13, 14))
+	sum := sum(13, 14)
+	minus := Minus(15, 8)
+
+	fmt.Println(sum + minus)
 }
 
 func sum(a int, b int) int {
